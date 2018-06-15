@@ -20,3 +20,14 @@ C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsNewsletter\obj\Debug\netcore
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.AssemblyInfo.cs
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.dll
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.pdb
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\bin\Debug\netcoreapp2.0\MsNewsletter.deps.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\bin\Debug\netcoreapp2.0\MsNewsletter.runtimeconfig.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\bin\Debug\netcoreapp2.0\MsNewsletter.runtimeconfig.dev.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\bin\Debug\netcoreapp2.0\MsNewsletter.dll
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\bin\Debug\netcoreapp2.0\MsNewsletter.pdb
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.csprojAssemblyReference.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.AssemblyInfo.cs
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.dll
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsNewsletter\obj\Debug\netcoreapp2.0\MsNewsletter.pdb

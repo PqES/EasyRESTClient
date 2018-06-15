@@ -20,3 +20,14 @@ C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsProduct\obj\Debug\netcoreapp
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.dll
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.pdb
 C:\Users\Guilherme\Documents\GitHub\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.csprojAssemblyReference.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\bin\Debug\netcoreapp2.0\MsProduct.deps.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\bin\Debug\netcoreapp2.0\MsProduct.runtimeconfig.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\bin\Debug\netcoreapp2.0\MsProduct.runtimeconfig.dev.json
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\bin\Debug\netcoreapp2.0\MsProduct.dll
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\bin\Debug\netcoreapp2.0\MsProduct.pdb
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.csprojAssemblyReference.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.AssemblyInfoInputs.cache
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.AssemblyInfo.cs
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.dll
+C:\Users\Guilherme\Documents\GitHub\MicroService_.NET_Eureka\MicroServicos\MsProduct\obj\Debug\netcoreapp2.0\MsProduct.pdb

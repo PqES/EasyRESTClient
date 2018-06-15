@@ -13168,11 +13168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsNewsletter\\MsNewsletter.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsNewsletter\\MsNewsletter.csproj",
       "projectName": "MsNewsletter",
-      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsNewsletter\\MsNewsletter.csproj",
+      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsNewsletter\\MsNewsletter.csproj",
       "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsNewsletter\\obj\\",
+      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsNewsletter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -5006,11 +5006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\VSIXProject1\\Analyzer\\Analyzer\\Analyzer.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\VSIXProject1\\Analyzer\\Analyzer\\Analyzer.csproj",
       "projectName": "Analyzer",
-      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\VSIXProject1\\Analyzer\\Analyzer\\Analyzer.csproj",
+      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\VSIXProject1\\Analyzer\\Analyzer\\Analyzer.csproj",
       "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\VSIXProject1\\Analyzer\\Analyzer\\obj\\",
+      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\VSIXProject1\\Analyzer\\Analyzer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

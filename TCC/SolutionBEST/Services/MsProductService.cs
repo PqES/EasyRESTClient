@@ -7,7 +7,7 @@
     using Microsoft.Extensions.Logging;
     using Pivotal.Discovery.Client;
 
-    public class MsProductService : MicroServiceGeneric<MsProductService>, IMsProductService
+    public class MsProductService : MicroService<MsProductService>, IMsProductService
     {
         public MsProductService(IDiscoveryClient client, ILoggerFactory logFactory)
                 : base(client, logFactory)

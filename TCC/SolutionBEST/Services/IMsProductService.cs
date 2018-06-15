@@ -6,7 +6,7 @@
     using MicroServiceNet;
     using MicroServiceNet.Attributes;
 
-    [MicroServiceHost("MsProduc")]
+    [MicroServiceHost("MsProduct")]
     public interface IMsProductService : IMicroService
     {
         [MicroService("GetAllProducts", TypeRequest.Get)]

@@ -239,7 +239,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IMicroService.cs" />
-    <Compile Include="MicroService.cs" />
+    <Compile Include="Entities\MicroService.cs" />
     <Compile Include="Attributes\MicroServiceAttribute.cs" />
     <Compile Include="MicroServiceGeneric.cs" />
     <Compile Include="Attributes\MicroServiceHostAttribute.cs" />

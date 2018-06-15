@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Reflection;
 using System.Threading.Tasks;
+using MicroServiceNet.Attributes;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Linq;
 using Pivotal.Discovery.Client;
 
 namespace MicroServiceNet
@@ -32,8 +33,19 @@ namespace MicroServiceNet
                 {
                     var microServico =
                         MicroServiceAttribute.GetMicroService(interfaces[i].GetMethod(method.Method.Name));
+                    Task<HttpResponseMessage> result = null;
+                    var client = new HttpClient(_handler, false);
 
-                    Uri myUri = new Uri(new Uri(MicroServiceHostAttribute.GetMicroService(interfaces[i])), microServico.Name);
+
+                    var response = client.GetStringAsync("http://localhost:8761/eureka/apps/" + MicroServiceHostAttribute.GetMicroService(interfaces[i]).ToUpper()).Result;
+
+                    System.Xml.XmlDocument xDoc = new System.Xml.XmlDocument();
+                    xDoc.LoadXml(response);
+
+                    string hostname = xDoc.GetElementsByTagName("hostName")[0].InnerText;
+                    string port = xDoc.GetElementsByTagName("port")[0].InnerText;
+
+                    Uri myUri = new Uri($"http://{hostname}:{port}/{microServico.Name}");
 
                     var action = microServico.Action;
 
@@ -42,10 +54,6 @@ namespace MicroServiceNet
                     {
                         encodedContent = new FormUrlEncodedContent(parameters);
                     }
-
-
-                    Task<HttpResponseMessage> result = null;
-                    var client = new HttpClient(_handler, false);
 
                     switch (action)
                     {

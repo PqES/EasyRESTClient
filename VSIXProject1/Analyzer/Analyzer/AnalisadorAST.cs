@@ -4,15 +4,9 @@ using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Linq;
 using System.Collections.Generic;
-using System.IO;
 using System.Net.Http;
-using System.Runtime.Serialization;
 using System.Xml;
-using System.Xml.Serialization;
 using Analyzer;
-using Newtonsoft.Json;
-using System.Text;
-using System.Xml.Linq;
 
 namespace CodeAnalysisApp
 {

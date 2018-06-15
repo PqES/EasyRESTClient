@@ -12806,11 +12806,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsProduct\\MsProduct.csproj",
+      "projectUniqueName": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsProduct\\MsProduct.csproj",
       "projectName": "MsProduct",
-      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsProduct\\MsProduct.csproj",
+      "projectPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsProduct\\MsProduct.csproj",
       "packagesPath": "C:\\Users\\Guilherme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroServicos\\MsProduct\\obj\\",
+      "outputPath": "C:\\Users\\Guilherme\\Documents\\GitHub\\MicroService_.NET_Eureka\\MicroServicos\\MsProduct\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
