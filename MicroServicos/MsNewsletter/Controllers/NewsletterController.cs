@@ -9,17 +9,17 @@ using MsNewsletter.Email;
 
 namespace MsNewsletter.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class NewsletterController : Controller
     {
-        // api/newsletter/subscribe
+
         [HttpPost("Subscribe")]
         public bool Subscribe(string cpf, string email)
         {
             return UserDAO.RegisterUser(new User(cpf, email));
         }
 
-        // api/newsletter/publish
+
         [HttpGet("Publish")]
         public bool Publish()
         {

@@ -1,31 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using MsCustomer.DAO;
 using MsCustomer.entities;
 
 namespace MsCustomer.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class CustomerController : Controller
     {
-
-        private CustomerDAO customerDAO;
+        private ICustomerDAO customerDAO;
+        public CustomerController(ICustomerDAO _customerDAO)
+        {
+            customerDAO = _customerDAO;
+        }
 
         public string Index()
         {
             return "gerenciador";
         }
 
-        // POST api/AddCustomer
-        [HttpPost]
+
+        [HttpPost, Route("AddCustomer")]
         public string AddCustomer(string name, string cpf, string email)
         {
             string idCustomer = "";
             try
             {
                 Customer c = new Customer(name, cpf, email);
-                customerDAO.Save(c);
+                customerDAO.Create(c);
                 idCustomer = c.Id.ToString();
             }
             catch (Exception ex)
@@ -37,31 +41,22 @@ namespace MsCustomer.Controllers
         }
 
 
-        // GET api/GetAllClientes
-        [HttpGet]
+        [HttpGet, Route("GetAllClientes")]
         public List<Customer> GetAllClientes()
         {
-            List<Customer> customers = new List<Customer>();
-            foreach (Customer customer in customerDAO.FindAll())
-            {
-                customers.Add(customer);
-            }
-
-            return customers;
+            var result = customerDAO.GetAll().ToList();
+            return result;
         }
 
 
-        // GET api/GetClientePorCpf
-        [HttpGet]
+        [HttpGet, Route("GetClientePorCpf")]
         public Customer GetClientePorCpf(string cpf)
         {
-            Customer c = customerDAO.FindByCpf(cpf);
-            return c;
+            return customerDAO.FindByCpf(cpf);
         }
 
 
-        // GET api/GetClientePorCpf
-        [HttpGet]
+        [HttpGet, Route("Delete")]
         public string Delete(string cpf)
         {
             Customer c = customerDAO.FindByCpf(cpf);

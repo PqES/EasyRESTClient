@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MsProduct.DAO;
 using Pivotal.Discovery.Client;
+using System.Reflection;
 
 namespace MsProduct
 {
@@ -19,6 +22,12 @@ namespace MsProduct
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDiscoveryClient(Configuration);
+
+            services.AddDbContext<CatalogContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
+               optionsBuilder => optionsBuilder.MigrationsAssembly(typeof(CatalogContext).GetTypeInfo().Assembly.GetName().Name)));
+
+            services.AddScoped<IProductDAO, ProductDAO>();
 
             services.AddMvc();
         }

@@ -1,18 +1,25 @@
 ﻿using MsCustomer.entities;
-using System.Collections.Generic;
 
 namespace MsCustomer.DAO
 {
-    public interface CustomerDAO
+    public class CustomerDAO : GenericRepository<Customer>, ICustomerDAO
     {
-        Customer Save(Customer c);
+        private CatalogContext _dbContext;
 
-        Customer FindByCpf(string cpf);
+        public CustomerDAO(CatalogContext dbContext)
+            : base(dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
-        Customer FindByName(string name);
+        public Customer FindByCpf(string cpf)
+        {
+            return GetBy(c => c.Cpf == cpf);
+        }
 
-        void Delete(Customer c);
-
-        List<Customer> FindAll();
+        public Customer FindByName(string name)
+        {
+            return GetBy(c => c.Name == name);
+        }
     }
 }
