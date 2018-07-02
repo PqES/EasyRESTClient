@@ -1,0 +1,16 @@
+MicroServicos\MsProduct\bin\*
+MicroServicos\MsProduct\obj\*
+MicroServicos\MsVendas\bin\*
+MicroServicos\MsVendas\obj\*
+MicroServicos\MsNewsletter\bin\*
+MicroServicos\MsNewsletter\obj\*
+MicroServicos\MsCustomer\bin\*
+MicroServicos\MsCustomer\obj\*
+MicroServicos\MsAuthenticate\bin\*
+MicroServicos\MsAuthenticate\obj\*
+VSIXProject1\Analyzer\Analyzer\bin\*
+VSIXProject1\Analyzer\Analyzer\obj\*
+VSIXProject1\VSIXProject1\bin\*
+VSIXProject1\VSIXProject1\obj\*
+TCC\MicroServiceNet\obj\*
+TCC\MicroServiceNet\bin\*
