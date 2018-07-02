@@ -3,7 +3,7 @@ using MsAuthentication.DAO;
 using MsAuthentication.Entities;
 namespace MsAuthentication.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class AuthenticateController : Controller
     {
         [HttpPost]

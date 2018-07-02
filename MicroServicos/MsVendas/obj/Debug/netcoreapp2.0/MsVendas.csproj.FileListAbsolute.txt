@@ -1,0 +1,13 @@
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MsVendas.deps.json
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MsVendas.runtimeconfig.json
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MsVendas.runtimeconfig.dev.json
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MsVendas.dll
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.csprojResolveAssemblyReference.cache
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.csproj.CoreCompileInputs.cache
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.AssemblyInfoInputs.cache
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.AssemblyInfo.cs
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MsVendas.pdb
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.dll
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.pdb
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\bin\Debug\netcoreapp2.0\MicroServiceNet.dll
+C:\Users\Ramos\Documents\GitHub\MicroServicos\MsVendas\obj\Debug\netcoreapp2.0\MsVendas.csproj.CopyComplete

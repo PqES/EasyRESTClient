@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <ApplicationInsightsResourceId>/subscriptions/8b450bc5-0511-4c58-91d2-451c5618a63d/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/MsAuthenticate</ApplicationInsightsResourceId>
-    <ApplicationInsightsAnnotationResourceId>/subscriptions/8b450bc5-0511-4c58-91d2-451c5618a63d/resourcegroups/Default-ApplicationInsights-EastUS/providers/microsoft.insights/components/MsAuthenticate</ApplicationInsightsAnnotationResourceId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,17 +9,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.8" />
     <PackageReference Include="Pivotal.Discovery.Client" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <WCFMetadata Include="Connected Services" />
   </ItemGroup>
 
 </Project>

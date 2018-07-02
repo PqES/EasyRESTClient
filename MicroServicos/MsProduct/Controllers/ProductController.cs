@@ -10,7 +10,7 @@ using System.Net;
 namespace MsProduct.Controllers
 {
 
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ProductController : Controller
     {
         private IProductDAO productDAO;
@@ -19,12 +19,12 @@ namespace MsProduct.Controllers
             productDAO = _productDAO;
         }
 
+
         public string Index()
         {
             return "index";
         }
 
-        [Route("FallbackMethod")]
         public string FallbackMethod()
         {
             return "fallback method";
@@ -57,8 +57,7 @@ namespace MsProduct.Controllers
             return products;
         }
 
-        [HttpGet, Route("UpdateStock")]
-        public string UpdateStock(string[] id, string[] qt)
+        public string UpdateStock(string id, string[] qt)
         {
 
             int[] estoque = new int[id.Length];
@@ -78,6 +77,63 @@ namespace MsProduct.Controllers
                 productDAO.Create(products[i]);
             }
             return "sucess";
+        }
+
+        public string GetCustomer()
+        {
+            string getCustomer = "http://localhost:9000/getCustomer";
+
+            try
+            {
+                var requisicaoWeb = WebRequest.CreateHttp(getCustomer);
+                requisicaoWeb.Method = "GET";
+
+                string result;
+
+                using (var resposta = requisicaoWeb.GetResponse())
+                {
+                    var streamDados = resposta.GetResponseStream();
+                    StreamReader reader = new StreamReader(streamDados);
+                    result = reader.ReadToEnd().ToString();
+                    streamDados.Close();
+                    resposta.Close();
+                }
+
+                return result;
+
+            }
+            catch (Exception e)
+            {
+                return "Erro:" + e.Message;
+            }
+        }
+    
+        public string PublisNewsLetter()
+        {
+            string getCustomer = "http://localhost:5001/?method=Publish";
+            try
+            {
+                var requisicaoWeb = WebRequest.CreateHttp(getCustomer);
+                requisicaoWeb.Method = "GET";
+
+                string result;
+
+                using (var resposta = requisicaoWeb.GetResponse())
+                {
+                    var streamDados = resposta.GetResponseStream();
+                    StreamReader reader = new StreamReader(streamDados);
+                    result = reader.ReadToEnd().ToString();
+                    streamDados.Close();
+                    resposta.Close();
+                }
+
+                return result;
+
+            }
+            catch (Exception e)
+            {
+                return "Erro:" + e.Message;
+            }
         }
     }
 }

@@ -10,12 +10,7 @@ namespace MsProduct.DAO
 
         }
 
-        public DbSet<Product> Products { get; set; }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Product>().ToTable("Product");
-        }
+        public DbSet<Product> CatalogItems { get; set; }
     }
 
 }

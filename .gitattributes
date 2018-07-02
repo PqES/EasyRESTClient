@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+MicroServicos\MsProduct\bin\*
+MicroServicos\MsProduct\obj\*
+MicroServicos\MsVendas\bin\*
+MicroServicos\MsVendas\obj\*
+MicroServicos\MsNewsletter\bin\*
+MicroServicos\MsNewsletter\obj\*
+MicroServicos\MsCustomer\bin\*
+MicroServicos\MsCustomer\obj\*
+MicroServicos\MsAuthenticate\bin\*
+MicroServicos\MsAuthenticate\obj\*
